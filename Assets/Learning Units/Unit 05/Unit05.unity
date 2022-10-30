@@ -358,6 +358,7 @@ GameObject:
   - component: {fileID: 292751812}
   - component: {fileID: 292751811}
   - component: {fileID: 292751814}
+  - component: {fileID: 292751815}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -459,6 +460,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &292751815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292751809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957e6e003adbd6244b43c3a0d92d4491, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProUGUI: {fileID: 1204391374}
 --- !u!1 &512370384
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +693,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -475, y: -240.5}
+  m_AnchoredPosition: {x: -439, y: -240.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204391374
@@ -765,7 +779,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -184.16925, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -791,6 +805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 957e6e003adbd6244b43c3a0d92d4491, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMeshProUGUI: {fileID: 0}
 --- !u!1 &1384222307
 GameObject:
   m_ObjectHideFlags: 0
